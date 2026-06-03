@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "description": "Application de scouting football desktop",
+  "homepage": "https://github.com/HugoLavi/scoutview",
+  "license": "MIT",
+  "url": "https://github.com/HugoLavi/scoutview/releases/download/v1.0.0/scoutview-1.0.0%20Setup.exe",
+  "installer": {
+    "script": "Start-Process -Wait \"$dir\\scoutview-1.0.0 Setup.exe\" -ArgumentList '--silent'"
+  },
+  "shortcuts": [
+    ["scoutview.exe", "ScoutView"]
+  ]
+}
