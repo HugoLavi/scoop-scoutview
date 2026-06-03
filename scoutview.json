@@ -4,8 +4,9 @@
   "homepage": "https://github.com/HugoLavi/scoutview",
   "license": "MIT",
   "url": "https://github.com/HugoLavi/scoutview/releases/download/v1.0.0/scoutview-1.0.0.Setup.exe",
+  "hash": "6f6eea7d710ecd9324f29a8c01570d38e3c5184d12004744edb93d3c2d01c294",
   "installer": {
-    "script": "Start-Process -Wait \"$dir\\scoutview-1.0.0 Setup.exe\" -ArgumentList '--silent'"
+    "script": "Start-Process -Wait \"$dir\\scoutview-1.0.0.Setup.exe\" -ArgumentList '--silent'"
   },
   "shortcuts": [
     ["scoutview.exe", "ScoutView"]
